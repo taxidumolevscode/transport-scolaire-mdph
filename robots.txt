@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://transportscolairemdph74.fr/sitemap.xml
