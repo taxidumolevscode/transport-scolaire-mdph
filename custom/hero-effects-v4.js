@@ -152,6 +152,25 @@
 
       node.parentNode.replaceChild(fragment, node);
     });
+
+    document.querySelectorAll(".taxi-brand-gold-parent").forEach((parent) => {
+      if (!/(^|\s)opacity-/.test(parent.className)) {
+        parent.classList.remove("taxi-brand-gold-parent");
+      }
+    });
+
+    document.querySelectorAll(".taxi-brand-gold").forEach((brand) => {
+      const fadedParent = brand.closest(".opacity-20, .opacity-30, .opacity-40");
+      if (fadedParent) fadedParent.classList.add("taxi-brand-gold-parent");
+    });
+  };
+
+  const colorMdphTitle = () => {
+    document.querySelectorAll("h1, h2, span, p").forEach((element) => {
+      if (element.textContent.trim() === "MDPH74") {
+        element.classList.add("mdph-gold");
+      }
+    });
   };
 
   const boot = () => {
@@ -161,6 +180,7 @@
       setupPartyEffect(hero);
     }
     colorBrandMentions();
+    colorMdphTitle();
   };
 
   const scheduleBoot = () => {

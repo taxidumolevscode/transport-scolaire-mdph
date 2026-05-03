@@ -152,6 +152,17 @@
 
       node.parentNode.replaceChild(fragment, node);
     });
+
+    document.querySelectorAll(".taxi-brand-gold-parent").forEach((parent) => {
+      if (!/(^|\s)opacity-/.test(parent.className)) {
+        parent.classList.remove("taxi-brand-gold-parent");
+      }
+    });
+
+    document.querySelectorAll(".taxi-brand-gold").forEach((brand) => {
+      const fadedParent = brand.closest(".opacity-20, .opacity-30, .opacity-40");
+      if (fadedParent) fadedParent.classList.add("taxi-brand-gold-parent");
+    });
   };
 
   const boot = () => {
