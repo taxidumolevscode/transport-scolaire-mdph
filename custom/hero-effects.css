@@ -20,9 +20,99 @@
   z-index: 2;
 }
 
+.hero-eyebrow-line,
+.mobile-split-line {
+  display: inline;
+}
+
+.hero-eyebrow-line + .hero-eyebrow-line::before,
+.mobile-split-line + .mobile-split-line::before {
+  content: " ";
+}
+
+@media (min-width: 769px) {
+  .hero-shell > .absolute.inset-0.z-0.opacity-40 {
+    inset: 0 1.5cm !important;
+    opacity: 0.68 !important;
+    overflow: hidden !important;
+  }
+
+  .hero-shell .hero-image {
+    object-position: center center !important;
+    transform: scale(1) !important;
+    transform-origin: center center !important;
+    filter: saturate(1.05) contrast(1.04) brightness(1.16) !important;
+  }
+
+  .hero-shell > .absolute.inset-0.bg-gradient-to-b {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.24),
+      rgba(0, 0, 0, 0.34),
+      rgba(0, 0, 0, 0.55)
+    ) !important;
+  }
+
+  .hero-shell .hero-brand-logo {
+    display: block !important;
+    width: clamp(210px, 15vw, 300px);
+    max-height: none !important;
+    margin: 0 auto 1.65rem;
+    padding: 0.35rem 1.15rem 0.45rem;
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: relative;
+    z-index: 3;
+    transform: translateY(2.5cm);
+    transform-origin: center top;
+    object-fit: contain !important;
+    box-sizing: content-box;
+    border-radius: 999px;
+    background:
+      radial-gradient(
+        ellipse at center,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 182, 0, 0.12) 38%,
+        rgba(255, 255, 255, 0) 72%
+      );
+    filter:
+      drop-shadow(0 18px 34px rgba(0, 0, 0, 0.72))
+      drop-shadow(0 0 18px rgba(255, 182, 0, 0.18))
+      brightness(1.22)
+      contrast(1.12) !important;
+  }
+
+  .hero-shell .hero-brand-logo + * {
+    margin-top: 2.5cm;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-brand-logo {
     width: min(58vw, 190px);
     margin: 2.4rem auto 0.8rem;
+  }
+
+  .hero-shell .hero-eyebrow {
+    max-width: 20rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    line-height: 1.55 !important;
+    white-space: normal !important;
+  }
+
+  .hero-shell .hero-eyebrow-line {
+    display: block;
+  }
+
+  .hero-shell .hero-eyebrow-line + .hero-eyebrow-line::before,
+  .mobile-split-line + .mobile-split-line::before {
+    content: "";
+  }
+
+  .mobile-split-line {
+    display: block;
+    text-align: center;
   }
 }
