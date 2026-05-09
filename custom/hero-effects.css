@@ -57,13 +57,13 @@
     display: block !important;
     width: clamp(210px, 15vw, 300px);
     max-height: none !important;
-    margin: 0 auto 1.65rem;
+    margin: 3.2cm auto 1cm;
     padding: 0.35rem 1.15rem 0.45rem;
     opacity: 1 !important;
     visibility: visible !important;
     position: relative;
     z-index: 3;
-    transform: translateY(2.5cm);
+    transform: none !important;
     transform-origin: center top;
     object-fit: contain !important;
     box-sizing: content-box;
@@ -83,7 +83,7 @@
   }
 
   .hero-shell .hero-brand-logo + * {
-    margin-top: 2.5cm;
+    margin-top: 0 !important;
   }
 }
 
