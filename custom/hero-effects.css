@@ -57,7 +57,7 @@
     display: block !important;
     width: clamp(210px, 15vw, 300px);
     max-height: none !important;
-    margin: 4.2cm auto 0.5mm;
+    margin: 5cm auto 0.5mm;
     padding: 0.35rem 1.15rem 0.45rem;
     opacity: 1 !important;
     visibility: visible !important;
