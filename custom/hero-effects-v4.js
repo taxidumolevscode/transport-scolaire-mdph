@@ -1,6 +1,6 @@
 (() => {
   const logoUrl =
-    "https://taxidumole.com/wp-content/uploads/2025/10/Logo-Mascote-Taxi-du-Mole-Image-8-oct.-2025-a-15_52_01.png";
+    "https://res.cloudinary.com/do6qoswp/image/upload/v1783513373/573b7860-8a91-49da-bb69-b20827e60703_jquqtz.png";
   const gold = "#ffb600";
 
   const setupHeroLogo = (hero) => {
@@ -173,12 +173,43 @@
     });
   };
 
+  const splitTextElement = (element, lines, className) => {
+    if (!element || element.dataset.formatted === "true") return;
+
+    element.textContent = "";
+    lines.forEach((line) => {
+      const span = document.createElement("span");
+      span.className = className;
+      span.textContent = line;
+      element.append(span);
+    });
+    element.dataset.formatted = "true";
+  };
+
+  const formatHeroEyebrow = () => {
+    const eyebrow = document.querySelector(".hero-eyebrow");
+    if (!eyebrow || eyebrow.textContent.trim() !== "Transport Scolaire Adapté En Haute-Savoie") return;
+
+    splitTextElement(eyebrow, ["Transport Scolaire", "Adapté En Haute-Savoie"], "hero-eyebrow-line");
+  };
+
+  const formatMobileSplitText = () => {
+    document.querySelectorAll("h1, h2, h3, span, p").forEach((element) => {
+      if (element.dataset.formatted === "true") return;
+      if (element.textContent.trim() === "Service TSEH Haute-Savoie") {
+        splitTextElement(element, ["Service TSEH", "Haute-Savoie"], "mobile-split-line");
+      }
+    });
+  };
+
   const boot = () => {
     const hero = document.querySelector(".hero-shell");
     if (hero) {
       setupHeroLogo(hero);
       setupPartyEffect(hero);
     }
+    formatHeroEyebrow();
+    formatMobileSplitText();
     colorBrandMentions();
     colorMdphTitle();
   };
@@ -190,14 +221,6 @@
     window.setTimeout(boot, 1600);
   };
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", scheduleBoot, { once: true });
-  } else {
-    scheduleBoot();
-  }
-
-  window.addEventListener("load", scheduleBoot, { once: true });
-
   const observer = new MutationObserver(() => {
     const hero = document.querySelector(".hero-shell");
     if (!hero) return;
@@ -206,5 +229,21 @@
     }
   });
 
-  observer.observe(document.documentElement, { childList: true, subtree: true });
+  let started = false;
+  const startEnhancements = () => {
+    if (started) return;
+    started = true;
+    scheduleBoot();
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+  };
+
+  const queueStart = () => {
+    window.requestAnimationFrame(startEnhancements);
+  };
+
+  if (document.readyState === "complete") {
+    queueStart();
+  } else {
+    window.addEventListener("load", queueStart, { once: true });
+  }
 })();

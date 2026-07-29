@@ -1,6 +1,6 @@
 (() => {
   const logoUrl =
-    "https://taxidumole.com/wp-content/uploads/2025/10/Logo-Mascote-Taxi-du-Mole-Image-8-oct.-2025-a-15_52_01.png";
+    "https://res.cloudinary.com/do6qoswp/image/upload/f_auto,q_auto/ChatGPT_Image_7_juil._2026_%C3%A0_23_28_57_cuxkra";
   const gold = "#ffb600";
 
   const setupHeroLogo = (hero) => {

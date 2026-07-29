@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Taxi bientôt conventionné à Bonneville | Trajets médicaux CPAM</title>
+  <meta name="description" content="Taxi bientôt conventionné à Bonneville pour vos trajets médicaux : hôpitaux, cliniques, spécialistes et consultations. Service ponctuel, rassurant et disponible 7j/7.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://transportscolairemdph74.fr/taxi-conventionne-bonneville">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Transport Scolaire MDPH 74">
+  <meta property="og:title" content="Taxi bientôt conventionné à Bonneville">
+  <meta property="og:description" content="Réservez un taxi pour vos trajets médicaux à Bonneville : rendez-vous hospitaliers, cliniques, spécialistes et consultations. Conventionnement CPAM à venir.">
+  <meta property="og:url" content="https://transportscolairemdph74.fr/taxi-conventionne-bonneville">
+  <meta property="og:image" content="https://res.cloudinary.com/do6qoswp/image/upload/f_auto,q_auto/6c1862c7-feaa-4365-a0ab-5a4a3a1b2063_qglvbf">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Taxi bientôt conventionné à Bonneville">
+  <meta name="twitter:description" content="Trajets médicaux à Bonneville, ponctuels et sécurisés. Conventionnement CPAM à venir.">
+  <meta name="twitter:image" content="https://res.cloudinary.com/do6qoswp/image/upload/f_auto,q_auto/6c1862c7-feaa-4365-a0ab-5a4a3a1b2063_qglvbf">
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/favicon-32x32.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #050505;
+      --paper: #ffffff;
+      --muted: #5f6673;
+      --soft: #f5f7fb;
+      --line: #e4e7ec;
+      --gold: #ffb600;
+      --green: #176b4d;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Poppins, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .nav {
+      position: fixed;
+      z-index: 20;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem clamp(1rem, 4vw, 3rem);
+      color: #fff;
+      background: rgba(5, 5, 5, .72);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255, 255, 255, .12);
+    }
+
+    .brand {
+      font-size: .85rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .16em;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+    }
+
+    .nav-link {
+      font-size: .72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      opacity: .84;
+    }
+
+    .nav-call,
+    .btn-primary,
+    .btn-secondary {
+      display: inline-flex;
+      min-height: 3rem;
+      align-items: center;
+      justify-content: center;
+      padding: .9rem 1.1rem;
+      border-radius: .5rem;
+      font-size: .78rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      transition: transform .2s ease, background .2s ease, color .2s ease, border-color .2s ease;
+    }
+
+    .nav-call,
+    .btn-primary {
+      background: var(--gold);
+      color: #000;
+    }
+
+    .btn-secondary {
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, .38);
+    }
+
+    .nav-call:hover,
+    .btn-primary:hover,
+    .btn-secondary:hover {
+      transform: translateY(-1px);
+    }
+
+    .hero {
+      position: relative;
+      min-height: 88vh;
+      display: grid;
+      align-items: end;
+      padding: 9rem clamp(1rem, 4vw, 3rem) 4rem;
+      color: #fff;
+      overflow: hidden;
+      background: #050505;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(5, 5, 5, .92) 0%, rgba(5, 5, 5, .74) 44%, rgba(5, 5, 5, .52) 100%),
+        url("https://res.cloudinary.com/do6qoswp/image/upload/f_auto,q_auto/6c1862c7-feaa-4365-a0ab-5a4a3a1b2063_qglvbf") center / cover;
+      opacity: .92;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1180px;
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, .55fr);
+      gap: clamp(2rem, 5vw, 5rem);
+      align-items: end;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      width: fit-content;
+      margin-bottom: 1.25rem;
+      padding: .55rem .75rem;
+      border: 1px solid rgba(255, 255, 255, .24);
+      border-radius: 999px;
+      color: var(--gold);
+      background: rgba(255, 255, 255, .06);
+      font-size: .72rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .18em;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 11ch;
+      margin-bottom: 1.25rem;
+      font-size: clamp(3.1rem, 8vw, 7.8rem);
+      line-height: .9;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 700px;
+      color: rgba(255, 255, 255, .82);
+      font-size: clamp(1.05rem, 2vw, 1.35rem);
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .85rem;
+      margin-top: 2rem;
+    }
+
+    .quick-card {
+      background: rgba(255, 255, 255, .95);
+      color: var(--ink);
+      border-radius: .5rem;
+      padding: 1.4rem;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, .32);
+    }
+
+    .quick-card h2 {
+      margin-bottom: .7rem;
+      font-size: 1.35rem;
+      line-height: 1.1;
+      text-transform: uppercase;
+    }
+
+    .quick-card p {
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .status {
+      display: grid;
+      gap: .7rem;
+      margin: 1.2rem 0;
+    }
+
+    .status-item {
+      display: flex;
+      align-items: flex-start;
+      gap: .65rem;
+      font-size: .92rem;
+      color: #20242b;
+    }
+
+    .dot {
+      width: .6rem;
+      height: .6rem;
+      margin-top: .35rem;
+      border-radius: 50%;
+      flex: 0 0 auto;
+      background: var(--gold);
+    }
+
+    .section {
+      padding: clamp(4rem, 8vw, 7rem) clamp(1rem, 4vw, 3rem);
+    }
+
+    .section-dark {
+      background: var(--ink);
+      color: #fff;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      max-width: 760px;
+      margin-bottom: 2.2rem;
+      font-size: clamp(2.1rem, 5vw, 4.8rem);
+      line-height: .98;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .section-intro {
+      max-width: 760px;
+      margin-bottom: 2.5rem;
+      color: var(--muted);
+      font-size: 1.06rem;
+      line-height: 1.75;
+    }
+
+    .section-dark .section-intro {
+      color: rgba(255, 255, 255, .72);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      min-height: 220px;
+      padding: 1.35rem;
+      border-radius: .5rem;
+      background: var(--soft);
+      border: 1px solid var(--line);
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: .8rem;
+      font-size: 1.15rem;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    .card p {
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .answer-grid {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .answer-box {
+      position: sticky;
+      top: 6rem;
+      padding: 1.5rem;
+      border-radius: .5rem;
+      background: var(--gold);
+      color: #000;
+    }
+
+    .answer-box h2 {
+      margin-bottom: .75rem;
+      font-size: 1.65rem;
+      line-height: 1.05;
+      text-transform: uppercase;
+    }
+
+    .answer-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .answer {
+      padding: 1.35rem;
+      border-radius: .5rem;
+      background: rgba(255, 255, 255, .06);
+      border: 1px solid rgba(255, 255, 255, .12);
+    }
+
+    .answer h3 {
+      margin-bottom: .6rem;
+      font-size: 1.25rem;
+      text-transform: uppercase;
+    }
+
+    .answer p {
+      color: rgba(255, 255, 255, .72);
+      line-height: 1.65;
+    }
+
+    .cta {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 1.25rem;
+      align-items: center;
+      padding: clamp(1.5rem, 4vw, 3rem);
+      border-radius: .5rem;
+      background: var(--green);
+      color: #fff;
+    }
+
+    .cta h2 {
+      margin-bottom: .5rem;
+      font-size: clamp(1.8rem, 4vw, 3.5rem);
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .cta p {
+      margin-bottom: 0;
+      color: rgba(255, 255, 255, .82);
+      line-height: 1.65;
+    }
+
+    .faq {
+      display: grid;
+      gap: .8rem;
+      max-width: 900px;
+    }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: .5rem;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 1.1rem 1.25rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    details p {
+      margin: 0;
+      padding: 0 1.25rem 1.25rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .footer {
+      padding: 2rem clamp(1rem, 4vw, 3rem);
+      color: rgba(255, 255, 255, .72);
+      background: #000;
+      border-top: 1px solid rgba(255, 255, 255, .1);
+    }
+
+    .footer-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: .9rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero-inner,
+      .answer-grid,
+      .cta {
+        grid-template-columns: 1fr;
+      }
+
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .answer-box {
+        position: static;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .nav {
+        align-items: flex-start;
+      }
+
+      .nav-actions {
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      .nav-link {
+        display: none;
+      }
+
+      .hero {
+        min-height: auto;
+        padding-top: 8rem;
+      }
+
+      .hero-actions,
+      .btn-primary,
+      .btn-secondary,
+      .nav-call {
+        width: 100%;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TaxiService",
+      "name": "Taxi du Môle - Taxi bientôt conventionné à Bonneville",
+      "url": "https://transportscolairemdph74.fr/taxi-conventionne-bonneville",
+      "telephone": "+33680423031",
+      "email": "contact@taxidumole.com",
+      "areaServed": ["Bonneville", "Haute-Savoie", "Vallée de l'Arve", "Cluses", "La Roche-sur-Foron"],
+      "serviceType": ["Transport médical", "Taxi bientôt conventionné CPAM", "Trajets vers hôpitaux, cliniques et spécialistes"],
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi du Môle"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Taxi du Môle est-il déjà taxi conventionné CPAM à Bonneville ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La page présente un service bientôt conventionné. La prise en charge CPAM ne s'applique qu'une fois le conventionnement actif et selon les conditions de l'Assurance Maladie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels trajets médicaux sont concernés à Bonneville ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les trajets peuvent concerner les consultations, hôpitaux, cliniques, examens médicaux, spécialistes et soins réguliers autour de Bonneville et de la Haute-Savoie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment réserver un taxi médical à Bonneville ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le plus simple est d'appeler le 06 80 42 30 31 pour vérifier la disponibilité, l'adresse de prise en charge, l'heure du rendez-vous et les informations utiles au trajet."
+          }
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+  <nav class="nav" aria-label="Navigation principale">
+    <a class="brand" href="/">Taxi du Môle</a>
+    <div class="nav-actions">
+      <a class="nav-link" href="/contact">Contact</a>
+      <a class="nav-call" href="tel:+33680423031">Appeler</a>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero">
+      <div class="hero-inner">
+        <div>
+          <span class="eyebrow">Bonneville · Haute-Savoie</span>
+          <h1>Taxi bientôt conventionné à Bonneville</h1>
+          <p class="lead">Un service de transport médical pensé pour vos rendez-vous de santé : ponctuel, rassurant, disponible 7j/7 et prêt à vous accompagner vers les hôpitaux, cliniques, spécialistes et centres de soins.</p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="tel:+33680423031">Réserver par téléphone</a>
+            <a class="btn-secondary" href="mailto:contact@taxidumole.com">Demander un renseignement</a>
+          </div>
+        </div>
+        <aside class="quick-card" aria-label="Informations rapides">
+          <h2>Trajet médical simple et sécurisé</h2>
+          <p>Appelez pour organiser votre prise en charge, confirmer l'horaire et préparer votre déplacement médical sans stress.</p>
+          <div class="status">
+            <div class="status-item"><span class="dot"></span><span>Disponibilité 7j/7 selon planning.</span></div>
+            <div class="status-item"><span class="dot"></span><span>Conventionnement CPAM annoncé comme prochainement disponible.</span></div>
+            <div class="status-item"><span class="dot"></span><span>Transport vers consultations, examens, hôpitaux et cliniques.</span></div>
+          </div>
+          <a class="btn-primary" href="tel:+33680423031">06 80 42 30 31</a>
+        </aside>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">Votre taxi médical à Bonneville, clair dès le premier appel.</h2>
+        <p class="section-intro">Le texte a été structuré pour répondre aux recherches locales les plus fréquentes : taxi conventionné Bonneville, transport médical CPAM, trajet hôpital, clinique, spécialiste, rendez-vous santé et réservation rapide.</p>
+        <div class="grid" aria-label="Services de transport médical">
+          <article class="card">
+            <strong>Rendez-vous hospitaliers</strong>
+            <p>Trajets organisés vers les hôpitaux, cliniques et centres médicaux de Haute-Savoie selon vos horaires de consultation.</p>
+          </article>
+          <article class="card">
+            <strong>Consultations spécialistes</strong>
+            <p>Transport ponctuel pour examens, soins réguliers, kinésithérapie, suivi médical ou rendez-vous chez un spécialiste.</p>
+          </article>
+          <article class="card">
+            <strong>Réservation facile</strong>
+            <p>Un appel suffit pour préciser l'adresse, l'heure du rendez-vous, le retour éventuel et les contraintes de mobilité.</p>
+          </article>
+          <article class="card">
+            <strong>Confort et sécurité</strong>
+            <p>Chauffeur professionnel, conduite souple, ponctualité et accompagnement attentif tout au long du déplacement.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="wrap answer-grid">
+        <div class="answer-box">
+          <h2>Réponse courte pour Google et IA</h2>
+          <p>Taxi du Môle propose à Bonneville un service de taxi bientôt conventionné pour les trajets médicaux, avec réservation rapide, disponibilité 7j/7 selon planning et accompagnement vers hôpitaux, cliniques et spécialistes.</p>
+        </div>
+        <div class="answer-list">
+          <article class="answer">
+            <h3>Taxi conventionné à Bonneville : que faut-il retenir ?</h3>
+            <p>Le service vise les déplacements médicaux pouvant être liés à une future prise en charge CPAM, uniquement lorsque le conventionnement sera actif et que les conditions de l'Assurance Maladie seront réunies.</p>
+          </article>
+          <article class="answer">
+            <h3>Pourquoi cette page est optimisée SAIO ?</h3>
+            <p>Elle donne des réponses directes, localisées et faciles à extraire par les moteurs IA : qui propose le service, où, pour quels trajets, comment réserver et quelles limites administratives connaître.</p>
+          </article>
+          <article class="answer">
+            <h3>Zone de prise en charge</h3>
+            <p>Bonneville, Vallée de l'Arve, Cluses, La Roche-sur-Foron et secteurs voisins selon les disponibilités et l'organisation du trajet médical.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="cta">
+          <div>
+            <h2>Besoin d'un trajet médical ?</h2>
+            <p>Appelez Taxi du Môle pour vérifier une disponibilité à Bonneville, préparer votre rendez-vous et organiser le retour si nécessaire.</p>
+          </div>
+          <a class="btn-primary" href="tel:+33680423031">Appeler maintenant</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="faq-title">
+      <div class="wrap">
+        <h2 id="faq-title" class="section-title">Questions fréquentes</h2>
+        <div class="faq">
+          <details>
+            <summary>Le trajet est-il remboursé par la CPAM ?</summary>
+            <p>La prise en charge dépend du conventionnement actif, de votre situation médicale, de la prescription et des règles de l'Assurance Maladie. La formulation “bientôt conventionné” évite de promettre un remboursement avant validation officielle.</p>
+          </details>
+          <details>
+            <summary>Puis-je réserver pour un hôpital ou une clinique ?</summary>
+            <p>Oui, vous pouvez appeler pour un rendez-vous hospitalier, une clinique, un centre de soins, un examen ou une consultation spécialiste autour de Bonneville et de la Haute-Savoie.</p>
+          </details>
+          <details>
+            <summary>Le service est-il disponible 7j/7 ?</summary>
+            <p>Le service est annoncé disponible 7j/7 selon planning. Le mieux est d'appeler dès que vous connaissez l'heure du rendez-vous médical.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>© 2026 Taxi du Môle</span>
+      <span>Taxi bientôt conventionné à Bonneville · 06 80 42 30 31</span>
+      <a href="/mentions-legales">Mentions légales</a>
+    </div>
+  </footer>
+</body>
+</html>
